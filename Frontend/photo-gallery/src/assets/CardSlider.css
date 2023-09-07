@@ -1,0 +1,51 @@
+/* CardSlider.css */
+
+.card-slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.card-slider {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    width: 345px;
+    margin: 0 10px;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.card.active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.arrow-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
