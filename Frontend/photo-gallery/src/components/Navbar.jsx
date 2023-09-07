@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <div style={{ height: "500px" }}>
-        <p style={{ textAlign: "center", margin: "10px" }}>枫丹摄影展</p>
+        
         <Carousel
           showArrows={true}
           showStatus={false}

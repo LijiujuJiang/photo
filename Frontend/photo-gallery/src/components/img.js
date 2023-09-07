@@ -13,6 +13,10 @@ const navItems = [
     title: "回归大群",
     imageUrl: "/img/3.png",
     color: "#0061c6",
+  },    {
+    title: "回归大群",
+    imageUrl: "/img/4.png",
+    color: "#004c98",
   },
 ];
 

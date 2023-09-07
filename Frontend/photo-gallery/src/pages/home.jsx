@@ -36,7 +36,7 @@ export default function Home() {
           minWidth: "500px",
           minHeight: "700px",
           overflow: "hidden",
-          backgroundImage: 'url("/img/home-bg.png")',
+          backgroundImage: 'url("/img/bg4.gif")',
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
